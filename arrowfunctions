@@ -1,0 +1,100 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+<body>
+    <script>
+        //let p =()=>{
+          //  document.write("Good Morning")
+        //}
+        //p();
+
+       
+        //let a =(b,c)=>{
+          //  document.write("b+c:")
+        //}
+        //a(20,30);
+
+        //let greet=x=>document.write(x)
+        //greet("hello")
+       
+        //let x=()=>
+        //{
+          //  document.write("Good Morning")
+        //}
+        //x();
+        let age = parseInt(prompt("age"))
+        let welcome=(age<18)?
+        ()=>document.write("welcome"):
+        ()=>document.write("not welcome")
+        welcome();
+        ()=>document.write(welcome);
+        welcome();
+
+    </script>
+</body>
+</html>
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+<body>
+    <script>
+       // function task1(){
+         //   document.write("task1:start<br>")
+        //}
+        //function task2(){
+          //  document.write("task2:start<br>")
+        //}
+        //function task3(){
+          //  document.write("task3:start<br>")
+        //}
+        //task1();
+        //task2();
+        //task3();
+
+        document.write("hi ram")
+        setTimeout(()=>{
+            document.write("hi iam from set timeout")
+        },6000)
+        document.write("iam in lab ")
+       
+    </script>
+</body>
+</html>
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+<body>
+    <script>
+       //function greet(name,callback){
+         //   document.write(`hi iam ${name} from greet function  `)
+           // callback()
+        //}
+        //function goodbye(){
+          //  document.write("goodbye")
+        //}
+        //greet("ram",goodbye)
+
+        let promise = new Promise((resolve, reject) => {
+            let success = true;
+            if (success) {
+                resolve("success");
+            } else {
+                reject("failure");
+            }
+            document.write("hi iam in promise")
+        });
+    </script>
+</body>
+</html>
