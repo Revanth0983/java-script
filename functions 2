@@ -1,0 +1,60 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+<body>
+    <script>
+        // function mainfunction(callback){
+        //     document.write("executing main function")
+        //     callback()
+            
+        // }
+        // function callbackfunction(){
+        //     document.write("call back function executed")
+        // }
+        // mainfunction(callbackfunction)
+        // function greet(name,callback){
+        //     document.write("hello "+name)
+        //     callback();
+        // }
+        // function goodbye(){
+        //     document.write("Goodbye!")
+        // }
+        // greet("rahul ",funtion()){
+        //     document.write("hello")
+        // }
+        // function fetchdata(callback){
+        //     document.write("Fetching data.....")
+        //     setTimeout(function(){
+        //         document.write("Data fetched")
+        //         callback();
+        //     },2000);
+        //     }
+        // function processeddata(){
+        //     document.write("Processing the fetched data.....")
+        // }
+        // fetchdata(processeddata);
+        // const numbers = [1,2,3,4,5]
+        // const d = numbers.map(function(num){
+        //     return num*2;
+        // })
+           
+        //document.write(d)
+// function registeruser(username,email,callback){
+//     document.write("registering user "+username);
+//     setTimeout(function(){
+//         document.write("user "+username+" registered successfully");
+
+// callback(email);
+// },2000);
+// }
+// function sendwelcomeemail(email){
+//     document.write("sending welcome eamil to "+sendwelcomeemail);
+// }
+// registeruser("revanth","revanthmail",sendwelcomeemail);
+    </script>
+</body>
+</html>
