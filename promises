@@ -1,0 +1,38 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+<body>
+    <script>
+    //     let mypromise = new Promise((resolve, reject)=>{
+    //     let success = true;
+    //     if(success){
+    //         resolve("The operation is successfull");
+    //     }
+    //     else{
+    //         reject("The operation failed");
+    //     }
+    // })
+    // mypromise
+    // .then(result=>{
+    //     console.log(result);
+    // });
+    // mypromise
+    // .catch(error=>{
+    //     console.log(error);
+    // })
+    let pro=new Promise((resolve,reject)=>{
+        resolve(5);
+    })
+    pro.then(result=>{
+        console.log(result)
+        setTimeout((pro)=>{
+            console.log("success")
+        },700)
+    })
+    </script>
+</body>
+</html>
