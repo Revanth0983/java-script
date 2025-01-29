@@ -1,0 +1,25 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+
+<body>
+    <script>
+        // let t=document.createElement("h2")
+        // let x = document.createElementNS("h2","h1","h3")
+        const t=["Rahul","Revanth","Sathvik"]
+        for(let i =0;i<t.length;i++){
+        let tt = document.createElement("h1")
+        tt.textContent=t[i] 
+        tt.className="a"
+        // t.textContent="hello ravi"
+        
+        console.log(tt)
+        document.body.appendChild(tt)
+        }
+    </script>
+</body>
+</html>
