@@ -1,0 +1,58 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+<body>
+    <!-- <script>
+         let title
+         for(let i = 0; i<3;i++){
+             title = document.createElement('h2')
+             title.className = "tt"
+             title.textContent=i
+             console.log(title)
+         }
+         const titles = ["revanth","saicharan","rahul"]
+         for(let i = 0; i<titles.length;i++){
+             let title = document.createElement('h1');
+             title.className="a"
+             title.textContent = titles[i]
+             console.log(title)
+        }
+        
+    </script> -->
+    <!-- <h3> Removing child nodes</h3>
+    <h4> Iam kishore</h4>
+    <ul>
+        <li>sainath</li>
+     //   <li>kishore</li>
+    </ul>
+    <script>
+        const ul = document.querySelector("ul")
+        const lists = document.querySelectorAll('li')
+        for(const list of lists){
+            console.log(`Removing: ${list.textContent}`)
+            ul.removeChild(list)
+        } -->
+        <div id = "a">
+            <h1>revanth</h1>
+            <h1> rahul</h1>
+        </div>
+        <div id = "b">
+            <h1>sathvik</h1>
+            <h1>charan</h1>
+        </div>
+        <script>
+            let n = document.createElement('h2')
+            n.textContent = "revanth"
+            let p = document.getElementById('b')
+            p.appendChild(n)
+            console.log(p)
+            console.log(p.innerText)
+
+        </script>
+        
+</body>
+</html>
