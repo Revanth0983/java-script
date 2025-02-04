@@ -1,0 +1,71 @@
+
+2211CS010155- MUTYALA RAHULNEEL
+10:24 (0 minutes ago)
+to me, 2211CS010154, 2211cs010164, 2211cs010166
+
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <script crossorigin src="https://unpkg.com/react@18/umd/react.development.js"></script>
+    <script crossorigin src="https://unpkg.com/react-dom@18/umd/react-dom.development.js"></script>
+    <script src="https://unpkg.com/@babel/standalone/babel.min.js"></script>
+</head>
+<body>
+    <div id = "app"></div>
+        <script src="text/babel">
+         const element = <h1 className="a">Hello JSX!</h1>
+         const root=ReactDOM.createRoot(document.getElementById('app'))
+         root.render(element)
+        </script>
+</body>
+</html>
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <script crossorigin src="https://unpkg.com/react@18/umd/react.development.js"></script>
+    <script crossorigin src="https://unpkg.com/react-dom@18/umd/react-dom.development.js"></script>
+    <script src="https://unpkg.com/@babel/standalone/babel.min.js"></script>
+</head>
+<body>
+    <div id = "app"></div>
+        <script src="text/babel">
+         const element = <h1 className="a">Hello JSX!</h1>
+         const root=ReactDOM.createRoot(document.getElementById('app'))
+         root.render(element)
+        </script>
+</body>
+</html>
+Syntax:
+React.createElement(type,prop)
+-type = tag name(div ,h1, p)
+Props = className , id , onClick
+To display the element
+ReactDOM.createRoot()
+ReactDOM.render() – to display the element.
+
+Intro to JSX:
+(Javascript XML) is a syntax extension for js , in react js , it allows us to write html code in react.
+
+JSX: jsx code gets compiled into js
+Babel: a tool converts translates into js
+Keypoints:
+ <div id = "app"></div>
+        <script src="text/babel">
+         const element = <h1 className="a">Hello JSX!</h1>
+         const root=ReactDOM.createRoot(document.getElementById('app'))
+         root.render(element)
+        </script>
+
+Without jsx ;-
+ <div id = "app"></div>
+        <script>
+         const element =React.createElement(‘h1’, {className:"a"},Hello JSX)</h1>
+         const root=ReactDOM.createRoot(document.getElementById('app'))
+         root.render(element)
+        </script>
