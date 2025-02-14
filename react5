@@ -1,0 +1,30 @@
+import React, { useReducer } from "react";
+import App.css FormDataEvent
+
+// const DataContext = createContext();
+
+function appleReducer(state = 3, action) {
+   switch (action.type) {
+      case 'ADD_APPLE':
+         return state + 1;
+      case 'REMOVE_APPLE':
+         return state - 1;
+      default:
+         return state;
+   }
+}
+
+function App() {
+   const [state, dispatch] = useReducer(appleReducer, 3);
+
+   return (
+      <div>
+         <h1>Apple counter</h1>
+         <p>Number of apples: {state}</p>
+         <button onClick={() => dispatch({ type: 'ADD_APPLE' })}>ADD_APPLE</button>
+         <button onClick={() => dispatch({ type: 'REMOVE_APPLE' })}>REMOVE_APPLE</button>
+      </div>
+   );
+}
+
+export default App;
