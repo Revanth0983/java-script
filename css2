@@ -1,0 +1,65 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+    <style>
+        .parent{
+            height:100vh;
+            display: grid;
+            grid-template-rows: 15% 70% 15%;
+            grid-template-columns: 15% 70% 15%;
+            text-align: center;
+        }
+        .header{
+            display:flex;
+            justify-content: center;
+            align-items: center;
+            background-color: aqua;
+            grid-row: 1/2;
+            grid-column: 1/4;
+
+        }
+        .aside{
+            display:flex;
+            justify-content: center;
+            align-items: center;
+            background-color: aquamarine;
+            grid-row: 2/3;
+        }
+        .main{
+            display:flex;
+            justify-content: center;
+            align-items: center;
+            background-color: blueviolet;
+            grid-row: 2/3;
+        }
+        .footer{
+            display:flex;
+            justify-content: center;
+            align-items: center;
+            background-color: rgb(255, 0, 0);
+            grid-row: 3/4;
+            grid-column: 1/4;
+        }
+        .rightmenu{
+            display:flex;
+            justify-content: center;
+            align-items: center;
+            background-color: blue;
+            grid-row: 2/3;
+        }
+        
+    </style>
+<body>
+    <div class="parent">
+        <div class="header">HEADER<button>b1</button><button>b2</button><button>b3</button><button>b4</button><button>b5</button></div>
+        <div class="aside">ASIDE<button>b1</button><button>b2</button><button>b3</button><button>b4</button></div>
+        <div class="main">MAIN</div>
+        <div class="footer">FOOTER</div>
+        <div class="rightmenu">RIGHTMENU</div>
+    </div>
+</body>
+</html>
